@@ -95,5 +95,5 @@ Please make sure to update tests as appropriate.
 <img src="/images/fb.jpeg?raw=true" width="250" height="250">
 
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Contact Me
+You can contact me at [17uec112@lnmiit.ac.in](17uec112@lnmiit.ac.in) or [shivamd011@gmail.com](shivamd011@gmail.com)
