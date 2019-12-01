@@ -52,9 +52,6 @@ Installation Steps:
 
 11. if everything went fine you should be able to see the website hosted at localhost:3000 :)
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 ## Tech Stack Used
 
 Please make sure to update tests as appropriate.
@@ -86,6 +83,17 @@ Please make sure to update tests as appropriate.
 
 4. There is also an option to add new host
 ![](/images/newHost.gif)
+
+### Screenshots
+1. Text messages : first one is when visitor checks in and second one when visitor checks out.
+![alt text](/images/text.jpeg?raw=true "Texts")
+
+2. Emails messages : first one is when visitor checks in and second one when visitor checks out and third one is the OTP email.
+![alt text](/images/mails.jpeg?raw=true "Texts")
+
+3. Feedback Email : email recieved when visitor fills feedback form.
+![alt text](/images/fb.jpeg?raw=true "Texts")
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
