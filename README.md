@@ -5,13 +5,13 @@ Read the problem statement here: [Link](https://summergeeks.in/static/assignment
 
 ## Table of Contents
 
-1. Setup and Installation
-3. Tech Stack Used
-4. Explanation
-   1. Folder Structure and useful functions
-   2. DFD Diagram
-5. Working with the app
-6. Contact Me 
+1. [Setup and Installation](#installation)
+3. [Tech Stack Used](#tech-stack-used)
+4. [Explanation](#explanation-folder-structure-and-data-flow-diagram)
+   1. [Folder Structure and useful functions](#folder-structure)
+   2. [DFD Diagram](#data-flow-diagram)
+5. [Working with the app](#working-with-the-app)
+6. [Contact Me](#contact-me) 
 
 ## Installation
 **NOTE:** These installation instructions assume that you have **nodejs**, **npm** and **mongodb** installed on your system.  
