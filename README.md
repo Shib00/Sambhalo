@@ -11,7 +11,8 @@ Read the problem statement here: [Link](https://summergeeks.in/static/assignment
    1. [Folder Structure and useful functions](#folder-structure)
    2. [DFD Diagram](#data-flow-diagram)
 5. [Working with the app](#working-with-the-app)
-6. [Contact Me](#contact-me) 
+6. [Exception handling done](#exception-handling)
+7. [Contact Me](#contact-me) 
 
 ## Installation
 **NOTE:** These installation instructions assume that you have **nodejs**, **npm** and **mongodb** installed on your system.  
@@ -94,6 +95,14 @@ Please make sure to update tests as appropriate.
 3. Feedback Email : email recieved when visitor fills feedback form.
 <img src="/images/fb.jpeg?raw=true" width="250" height="250">
 
+## Exception Handling
+Here's a list of exception handling done in the app:
+1. if a visitor is currently checked in another user with same email or password cannot check in.
+2. email and contact of hosts should be unique else they will not be added and also need to be verified by a OTP.
+3. visitor cannot proceed to check-in without filling all the fields of the form.
+4. one visitor cannot check-out any other visitor due to OTP recieved which also ensures that visitor provided the correct email id while checking in else he will not be able to check out.
+5. one can only access feedback page while checking out.
+6. in feedback form atleast the table should be filled otherwise it will again redirect back to the feedback page.
 
 ## Contact Me
 You can contact me at <17uec112@lnmiit.ac.in> or <shivamd011@gmail.com>
