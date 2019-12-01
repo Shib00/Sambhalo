@@ -55,7 +55,30 @@ Installation Steps:
 
 ## Tech Stack Used
 
-Please make sure to update tests as appropriate.
+### Database (MongoDB using Mongoose)
+1.Mongo is flexible and if there are slight change in requirements, relational DBs may waste a lot of space. 
+      1. Example: if only one of phone and email are required instead of both, there may be lot of null values in a relational database.
+      2. Example 2: like instead of a single address there are multiple addresses associated with a office (usually the case with many offices) and hence 
+
+2.Mongo leverages a JSON-style storage format known as binary JSON, or BSON, to achieve high throughput. It integrates well with node and express.
+
+3. Mongoose provides with the advantage of abstraction over pure mongo, using Schemas, it also implements validations to Schemas making them easier to work with also there are many plugins available.
+
+### Frontend (Vanilla JS)
+1. Because application was small and required less dynamic rendering and using frameworks like React or Angular for such a small application seemed redundant.
+
+2. Vanilla JS can be easily understood by most of the web developers.
+
+3. Use of ejs (EJS is a simple templating language that generates HTML markup with plain JavaScript. ... It's just plain JavaScript) and made handling data in and out of html pages much easy.
+
+### Backend (nodeJs and express)
+1. Node package manager(npm) has lot of available functionalities making it easy to implement facilities like email and phone messaging.
+
+2. Language is similar to javascript and it is again easy to understand for most web developers
+
+3. Allows handling simultaneous requests with ease.
+
+4. Express is a framework built on nodeJs and makes dealing with routes easier and also synchronizes well with ejs.
 
 ## Explanation (Folder structure and Data flow diagram)
 ### Folder Structure 
