@@ -69,6 +69,7 @@ Please make sure to update tests as appropriate.
 ---
 ### Data flow diagram
 ![alt text](/images/dfd1.png?raw=true "Data flow diagram")
+---
 ![alt text](/images/dfd2?raw=true "Data flow diagram")
 ---
 
