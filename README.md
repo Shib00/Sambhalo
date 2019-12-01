@@ -50,7 +50,7 @@ Installation Steps:
     1. if you see error like `Error: Cannot find module 'express'
 ` just do `npm install express` in the same directory(in some cases express needs to be installed locally). 
 
-10. if everything went fine you should be able to see the website hosted at localhost:3000 :)
+11. if everything went fine you should be able to see the website hosted at localhost:3000 :)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -61,7 +61,7 @@ Please make sure to update tests as appropriate.
 
 ## Explanation (Folder structure and Data flow diagram)
 ### Folder Structure 
-![alt text](https://github.com/Shib00/Sambhalo/tree/master/images/folder_structure.png "Folder Structure")
+![alt text](![alt text](/relative/path/to/img.jpg?raw=true "Optional Title") "Folder Structure")
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
