@@ -63,13 +63,17 @@ Please make sure to update tests as appropriate.
 ### Folder Structure 
 <img align="left" width="250" height="250" src="/images/structure?raw=true">
 <div>
-This contains explanation of the directories :
-   1. helper - contains helper functions like sendEmail, sendFbEmail, sendText, tConvert (to convert time), genOTP (to generate a OTP).
-   2. models - contains basic schemas of models used i.e. visitor, host, feedaback.
-   3. node_modules - contains all the basic dependencies required to run app.
-   4. public - contains all the stylesheets used
-   5. views - contains all the ejs files that need to be rendered
-      1. partials- contains the header and footer ejs files that need to be included in every document.
+   <list>
+      <ul>
+         <li>helper - contains helper functions like sendEmail, sendFbEmail, sendText, tConvert (to convert time), genOTP (to generate a OTP).</li>
+         <li>models - contains basic schemas of models used i.e. visitor, host, feedaback.</li>
+         <li>node_modules - contains all the basic dependencies required to run app.</li>
+         <li>public - contains all the stylesheets used</li>
+         <li>views - contains all the ejs files that need to be rendered
+            <ul><li>partials- contains the header and footer ejs files that need to be included in every document.</li></ul>
+         </li>
+      </ul>
+   </list>
 </div>
 
 ## License
