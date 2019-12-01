@@ -71,6 +71,8 @@ Installation Steps:
 
 3. Use of ejs (EJS is a simple templating language that generates HTML markup with plain JavaScript. ... It's just plain JavaScript) and made handling data in and out of html pages much easy.
 
+4. Made use of bootstrap for easy styling and make website mobile responsive.
+
 #### Backend (nodeJs and express)
 1. Node package manager(npm) has lot of available functionalities making it easy to implement facilities like email and phone messaging.
 
