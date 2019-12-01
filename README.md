@@ -96,4 +96,4 @@ Please make sure to update tests as appropriate.
 
 
 ## Contact Me
-You can contact me at [17uec112@lnmiit.ac.in](17uec112@lnmiit.ac.in) or [shivamd011@gmail.com](shivamd011@gmail.com)
+You can contact me at [17uec112@lnmiit.ac.in](mailto: 17uec112@lnmiit.ac.in) or [shivamd011@gmail.com](mailto: shivamd011@gmail.com)
