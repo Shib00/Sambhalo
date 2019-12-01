@@ -75,6 +75,12 @@ Please make sure to update tests as appropriate.
       </ul>
    </list>
 </div>
+<img align="left" width="250" height="250" src="/images/dfd?raw=true">
+
+## Working with the app
+
+
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
