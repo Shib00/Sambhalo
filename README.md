@@ -68,11 +68,14 @@ Please make sure to update tests as appropriate.
    1. partials- contains the header and footer ejs files that need to be included in every document.</li></ul>
 ---
 ### Data flow diagram
+
 1. DFD-0
-![alt text](/images/dfd1.png?raw=true "Data flow diagram")
+   ![alt text](/images/dfd1.png?raw=true "Data flow diagram")
+
 ---
 2. DFD-1
-![alt text](/images/dfd2?raw=true "Data flow diagram")
+   ![alt text](/images/dfd2?raw=true "Data flow diagram")
+
 ---
 
 ## Working with the app
