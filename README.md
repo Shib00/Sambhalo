@@ -74,11 +74,15 @@ Please make sure to update tests as appropriate.
 ---
 
 ## Working with the app
-### Home page
-1.  Enter your details and select your host
+
+1. Enter your details and select your host
 ![](/images/homepage.gif)
 
+2. To CheckOut you need to verify your OTP
+![](/images/checkout.gif)
 
+3. Feedback form page (fill the feedback form or press the home button)
+![](/images/feedback.gif)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
