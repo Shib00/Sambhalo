@@ -92,7 +92,7 @@ Please make sure to update tests as appropriate.
 ![alt text](/images/mails.jpeg?raw=true "Texts")
 
 3. Feedback Email : email recieved when visitor fills feedback form.
-![alt text](/images/fb.jpeg?raw=true "Texts")
+![alt text](/images/fb.jpeg?raw=true "Texts" =250x250)
 
 
 ## License
