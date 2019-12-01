@@ -1,0 +1,102 @@
+<%- include('partials/header') %>
+
+<% if(visitor === undefined){ %>
+    <div id="jumbo" class="jumbotron text-center">
+            <h1><i style="padding-right: 0.75rem;" class="fa fa-commenting" aria-hidden="true"></i>  FEEDBACK</h1>
+            <p>Sorry you cannot access this page :(</p>
+            <a href="/"><button class="btn btn-danger">Home</button></a>
+      </div>
+<%    }else{  %>     
+    <% if(message.length > 0){ %>
+        <div class="alert alert-primary notifi" role="alert">
+           <%= message %>
+        </div>
+        <% } %>          
+    <div id="jumbo" class="jumbotron text-center">
+        <h1><i style="padding-right: 0.75rem;" class="fa fa-commenting" aria-hidden="true"></i>  FEEDBACK</h1>
+        <p>Help us improve</p>
+    </div>
+
+    <div class="row">
+    <div class="col-lg-6">
+                <form id="visitorForm" class="col-lg-9" action="/feedBack" method="POST">
+                    <legend><i class="fa fa-commenting"></i> Feedback Form</legend>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label" for="name"><i class="fa fa-user" aria-hidden="true"></i>  Name</label>
+                        <div class="col-sm-8 px-0">
+                        <input class="form-control px-0" value=<%= visitor.name %> name="name" type="text" placeholder=<%= visitor.name %> readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label" for="hostName"><i class="fa fa-user" aria-hidden="true"></i>  Host</label>
+                        <div class="col-sm-8 px-0">
+                            <input class="form-control px-0" value=<%= visitor.hostName %> name="hostName" type="text" placeholder=<%= visitor.hostName %> readonly>
+                        </div>
+                        </div>
+                    <div class="form-group row">
+                        <label class="col-sm-4 col-form-label" for="email"><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                        <div class="col-sm-8 px-0">
+                        <input class="form-control px-0" value=<%= visitor.email %> name="email" type="email" placeholder=<%= visitor.email %> readonly>
+                        </div>
+                    </div>
+                    <div class="form-group row ">
+                        <a href="/" class="btn btn-info">Home</a>
+                    </div>
+    </div>
+
+    <div class="col-lg-6">
+        <h4>Fill the feeback</h4>
+            <table class="table table-hover table-bordered table-dark">
+                <thead>
+                <tr>
+                <th scope="col">Criteria</th>
+                <th scope="col">1 star</th>
+                <th scope="col">2 star</th>
+                <th scope="col">3 star</th>
+                <th scope="col">4 star</th>
+                <th scope="col">5 star</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr scope="row">      
+                    <td>Get what you were looking for ?</td>
+                    <td><input name="fullFill" value="1" type="radio"></td>
+                    <td><input name="fullFill" value="2" type="radio"></td>
+                    <td><input name="fullFill" value="3" type="radio"></td>
+                    <td><input name="fullFill" value="4" type="radio"></td>  
+                    <td><input name="fullFill" value="5" type="radio"></td>
+                </tr>
+                <tr scope="row">
+                <td>Attitude of Host</td>      
+                <td><input name="attitudeHost" value="1" type="radio"></td>
+                <td><input name="attitudeHost" value="2" type="radio"></td>
+                <td><input name="attitudeHost" value="3" type="radio"></td>
+                <td><input name="attitudeHost" value="4" type="radio"></td>  
+                <td><input name="attitudeHost" value="5" type="radio"></td>
+                </tr>
+                <tr scope="row">
+                <td>Timings of staff</td>      
+                <td><input name="timing" value="1" type="radio"></td>
+                <td><input name="timing" value="2" type="radio"></td>
+                <td><input name="timing" value="3" type="radio"></td>
+                <td><input name="timing" value="4" type="radio"></td>  
+                <td><input name="timing" value="5" type="radio"></td>
+                </tr>
+                </tbody>
+                </table>
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label" for="other"> Other suggestions ?</label>
+                    <div class="col-sm-8 px-0">
+                        <textarea id="other" name="other" class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-4 px-0">
+                            <input type="submit" class="btn btn-block btn-success"></input>
+                        </div>
+                        </div>   
+                </form>              
+            </div>
+    </div>
+<% } %>   
+<%- include('partials/footer') %>

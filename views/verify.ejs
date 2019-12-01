@@ -1,0 +1,26 @@
+<%- include('partials/header') %>
+<div id="jumbo" class="jumbotron text-center">
+      <h2 id="mainHeader"><i style="padding-right: 0.75rem;" class="fa fa-key" aria-hidden="true"></i>Please Enter OTP</h2>
+</div>
+
+<% if(message.length > 0){ %>
+<div style="width: 98%; margin-left:1%;margin-right:1%;" class="alert alert-primary notifi" role="alert">
+   <%= message %>
+</div>
+<% } %>
+
+<div class="row">
+   <div class="col-4">
+         <form action="/verify" method="POST">
+            <div class="form-group row">
+               <label class="col-sm-4 col-form-label" for="secretToken">OTP</label>
+               <div class="col-sm-8 px-0">
+                     <input class="form-control" type="text" style="margin-left:2%" id="secretToken" name="secretToken" aria-describedby="enter otp" required>
+               </div>
+               </div>
+            <button class="btn btn-primary" type="submit" id="submit">Confirm</button>
+         </form>
+         <a href="/"><button class="btn btn-info mt-2">Home</button></a>
+   </div>
+</div>
+<%- include('partials/footer') %>

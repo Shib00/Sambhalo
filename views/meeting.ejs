@@ -1,0 +1,42 @@
+<%- include('partials/header') %>
+
+<% if(message.length > 0){ %>
+   <div class="alert alert-primary notifi" role="alert">
+      <%= message %>
+   </div>
+   <% } %>
+   
+<div id="jumbo" class="jumbotron text-center">
+      <h2 id="mainHeader"><i style="padding-right: 0.75rem;" class="fa fa-check-circle" aria-hidden="true"></i>  Currently Checked-In Visitors</h2>
+</div>
+
+<form action="/meeting" method="POST">
+   <table style="font-weight: 100;letter-spacing: 0.2rem;" class="table table-bordered table-hover table-dark">
+      <thead>
+         <tr>
+            <th scope="col">Selection</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th class="d-none d-xl-block" scope="col">Contact</th>
+         </tr>
+      </thead>
+      <tbody>
+         <% visitors.forEach(visitor => { %>
+         <tr scope="row">
+            <td><input 
+               name="userId" 
+               value=<%= visitor._id %> type="radio">
+            </td>
+            <td><%= visitor.name %></td>
+            <td><%= visitor.email %></td>
+            <td class="d-none d-xl-block"><%= visitor.contact %></td>
+         </tr>
+         <% }) %>
+      </tbody>
+   </table>
+   <% let status = '' %>
+   <% visitors.length === 0 ? status = "disabled" : status ="" %>
+   <button class="mt-2 btn btn-dark"  type="submit" <%= status %>>Check Out</button>
+</form>
+<a href="/"><button class="mt-2 btn btn-info" >Home</button></a>
+<%- include('partials/footer') %>
