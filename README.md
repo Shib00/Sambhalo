@@ -61,7 +61,7 @@ Please make sure to update tests as appropriate.
 
 ## Explanation (Folder structure and Data flow diagram)
 ### Folder Structure 
-![alt text](./images/folder_structure.png "Folder Structure")
+![alt text](https://raw.githubusercontent.com/Shib00/Sambhalo/images/folder_structure.png "Folder Structure")
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
