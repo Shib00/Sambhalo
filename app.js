@@ -95,6 +95,7 @@ app.post("/", (req,res)=>{
     }
 });
 
+// Host page routing
 // =======================================================================
 app.get("/newHost",(req,res)=>{
     res.render("newHost",{message: req.flash("msg")});
@@ -126,6 +127,7 @@ app.post("/newHost",(req,res)=>{
     });
 });
 
+// In a meeting route
 // =======================================================================
 app.get("/meeting", async (req,res)=>{
     const visitors = await Visitor.find({});
@@ -168,6 +170,7 @@ app.post("/meeting",async (req,res)=>{
     }
 });
 
+// OTP Route
 // =======================================================================
 app.get("/verify",(req,res)=>{
     res.render("verify",{message: req.flash("msg")});
@@ -205,6 +208,7 @@ app.post("/verify",async (req,res)=>{
     }catch(err){console.log(err);}
 });
 
+// Feedback Routing
 // =======================================================================
 app.get("/feedBack",(req,res)=>{
     res.render("feedback",{visitor: req.session.message, message: req.flash("msg")});
@@ -234,8 +238,9 @@ app.post("/feedBack", async(req,res)=>{
             }
         })
 });
-// =======================================================================
 
+// Catch all route
+// =======================================================================
 app.get("*",(req,res)=>{
     res.send("Oops !! wrong link ");
 })
