@@ -61,8 +61,12 @@ Please make sure to update tests as appropriate.
 
 ## Explanation (Folder structure and Data flow diagram)
 ### Folder Structure 
-![Alt text](/images/structure?raw=true "Folder Structure")
-<img align="left" width="100" height="100" src="/images/structure?raw=true">
+<img align="left" width="500" height="500" src="/images/structure?raw=true">
+<div>
+This contains explanation of many useful directories :
+   1.
+   
+</div>
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
