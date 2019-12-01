@@ -69,10 +69,10 @@ Please make sure to update tests as appropriate.
 ---
 ### Data flow diagram
 
-1. DFD-0
-   ![alt text](/images/dfd1.png?raw=true "Data flow diagram")
-2. DFD-1
-   ![alt text](/images/dfd2?raw=true "Data flow diagram")
+#### DFD-0
+![alt text](/images/dfd1.png?raw=true "Data flow diagram")
+#### DFD-1
+![alt text](/images/dfd2?raw=true "Data flow diagram")
 
 ---
 
