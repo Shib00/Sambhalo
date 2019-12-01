@@ -61,7 +61,7 @@ Please make sure to update tests as appropriate.
 
 ## Explanation (Folder structure and Data flow diagram)
 ### Folder Structure 
-![alt text](![alt text](/relative/path/to/img.jpg?raw=true "Optional Title") "Folder Structure")
+![alt text](![alt text](/images/folder_structure.jpg?raw=true "Optional Title") "Folder Structure")
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
