@@ -61,11 +61,15 @@ Please make sure to update tests as appropriate.
 
 ## Explanation (Folder structure and Data flow diagram)
 ### Folder Structure 
-<img align="left" width="500" height="500" src="/images/structure?raw=true">
+<img align="left" width="250" height="250" src="/images/structure?raw=true">
 <div>
-This contains explanation of many useful directories :
-   1.
-   
+This contains explanation of the directories :
+   1. helper - contains helper functions like sendEmail, sendFbEmail, sendText, tConvert (to convert time), genOTP (to generate a OTP).
+   2. models - contains basic schemas of models used i.e. visitor, host, feedaback.
+   3. node_modules - contains all the basic dependencies required to run app.
+   4. public - contains all the stylesheets used
+   5. views - contains all the ejs files that need to be rendered
+      1. partials- contains the header and footer ejs files that need to be included in every document.
 </div>
 
 ## License
