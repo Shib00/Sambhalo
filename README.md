@@ -69,11 +69,14 @@ Please make sure to update tests as appropriate.
 5. views - contains all the ejs files that need to be rendered
    1. partials- contains the header and footer ejs files that need to be included in every document.</li></ul>
 ---
-<img align="left" width="250" height="250" src="/images/dfd?raw=true">
+### Data flow diagram
+![alt text](/images/dfd?raw=true "Data flow diagram")
 ---
 
 ## Working with the app
-
+### Home page
+1.  Enter your details and select your host
+![](/images/homepage.gif)
 
 
 
