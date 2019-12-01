@@ -84,5 +84,8 @@ Please make sure to update tests as appropriate.
 3. Feedback form page (fill the feedback form or press the home button)
 ![](/images/feedback.gif)
 
+4. There is also an option to add new host
+![](/images/newHost.gif)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
