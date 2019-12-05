@@ -16,7 +16,7 @@ const   express       = require("express"),
         getOTP        = require("./helper/genOTP"),
         tConvert      = require("./helper/tConvert"),
         app           = express(),
-        port          = parseInt(process.env.PORT, 10) || 3000;
+        port          = process.env.PORT || 3000;
 
 // Connect to database
 // =======================================================================
